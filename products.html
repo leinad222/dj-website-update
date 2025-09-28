@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/1d36c0aa30.js" crossorigin="anonymous"></script>
+     <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <i class="fa-brands fa-napster"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="specifications.html">Specifications</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="connect.html">Connect</a></li>
+            </ul>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="content">
+            <div class="left-col">
+                <h1>Our Products</h1>
+                <p>
+                    Discover our wide range of DJ products, from the latest turntables and controllers to headphones and accessories. We offer top brands and the newest technology to help you create the perfect sound.<br><br>
+                    Browse our collection and find the right gear for your next performance or studio session.
+                </p>
+            </div>
+            <div class="spec-images">
+                <div class="product-item">
+                    <img src="images/headphones-dj.jpg" alt="DJ Headphones">
+                    <p class="product-price">€99</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/dj-controller.jpg" alt="DJ Controller">
+                    <p class="product-price">€349</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/dj-speakers.jpg" alt="DJ Speakers">
+                    <p class="product-price">€199</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .product-item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .product-price {
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 10px;
+            background: rgba(0,0,0,0.5);
+            padding: 4px 16px;
+            border-radius: 8px;
+        }
+    </style>
+    <footer>    
+            <p>&copy; 2024 DJ Website. All rights reserved.</p>
+
+</body>
+</html>
